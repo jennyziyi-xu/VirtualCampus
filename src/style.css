@@ -60,7 +60,7 @@ body {
    -ms-interpolation-mode: nearest-neighbor;
        image-rendering: -moz-crisp-edges;
        image-rendering: pixelated;
-   background-image: url("https://assets.codepen.io/21542/CameraDemoMap.png");
+   background-image: url("https://www.wycliffecollege.ca/sites/default/files/sites/default/files/imce/Knox_Library.gif");
    background-size: 100%;
    width: calc(13 * var(--grid-cell));
    height: calc(10 * var(--grid-cell));
