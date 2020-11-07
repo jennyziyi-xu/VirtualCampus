@@ -52,7 +52,7 @@ body {
    width: calc(var(--pixel-size) * 160);
    height: calc(var(--pixel-size) * 144);
    overflow: hidden;
-   background: #61ddf7;
+   background: #99cc99;
    position:relative;
 }
 
@@ -60,7 +60,7 @@ body {
    -ms-interpolation-mode: nearest-neighbor;
        image-rendering: -moz-crisp-edges;
        image-rendering: pixelated;
-   background-image: url("https://www.wycliffecollege.ca/sites/default/files/sites/default/files/imce/Knox_Library.gif");
+   background-image: url(Knox_Library.gif);
    background-size: 100%;
    width: calc(13 * var(--grid-cell));
    height: calc(10 * var(--grid-cell));
@@ -71,7 +71,7 @@ body {
    width: calc( var(--grid-cell)* 2 );
    height: calc( var(--grid-cell)* 2 );
    position: absolute;
-   overflow:hidden;
+   overflow: hidden;
 }
 
 .shadow {

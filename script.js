@@ -23,6 +23,18 @@ const placeCharacter = () => {
    }
    character.setAttribute("walking", held_direction ? "true" : "false");
    
+   // x = 60
+   // y = 210
+   //x <= 60 && x >= 50 && y >= 200 && y <= 210
+    
+   // this is the code that makes the writing pop up when you are at the library
+   if (x <= 60 && x >= 50 && y >= 101 ){
+      console.log("I'm here!")
+      document.getElementById("demo").innerHTML = "IT WORKSSSSS!";
+   }
+   
+   
+
    //Limits (gives the illusion of walls)
    var leftLimit = -8;
    var rightLimit = (16 * 11)+8;
@@ -111,6 +123,7 @@ const handleDpadPress = (direction, click) => {
       document.querySelector(".dpad-"+direction).classList.add("pressed");
    }
 }
+
 //Bind a ton of events for the dpad
 document.querySelector(".dpad-left").addEventListener("touchstart", (e) => handleDpadPress(directions.left, true));
 document.querySelector(".dpad-up").addEventListener("touchstart", (e) => handleDpadPress(directions.up, true));
