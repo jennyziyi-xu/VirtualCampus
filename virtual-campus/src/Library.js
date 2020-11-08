@@ -1,8 +1,8 @@
 // import logo from './logo.svg';
-import './App.css';
+import './Library.css';
 
 
-function App() {
+function Library() {
   return (
     <div class="frame">
       <div class="corner_topleft"></div>
@@ -77,4 +77,4 @@ function App() {
 
 
 
-export default App;
+export default Library;

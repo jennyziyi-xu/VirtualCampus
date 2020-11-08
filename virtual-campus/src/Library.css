@@ -1,3 +1,4 @@
+/* https://derpicdn.net/img/view/2017/2/14/1362391.jpeg */
 :root {
    --pixel-size: 2px;
    --grid-cell: calc( var(--pixel-size) * 16);
@@ -61,7 +62,7 @@ body {
    -ms-interpolation-mode: nearest-neighbor;
        image-rendering: -moz-crisp-edges;
        image-rendering: pixelated;
-   background-image: url(https://www.wycliffecollege.ca/sites/default/files/sites/default/files/imce/Knox_Library.gif);
+   background-image: url(https://derpicdn.net/img/view/2017/2/14/1362391.jpeg);
    background-size: 100%;
    width: calc(13 * var(--grid-cell));
    height: calc(10 * var(--grid-cell));
