@@ -50,12 +50,12 @@ const placeCharacter = () => {
       console.log("I'm here!")
       // ReactDOM.render(
       //   <React.StrictMode>
-      //     // <Library />
+      //     <Library />
       //
       //   </React.StrictMode>,
-      //   document.getElementById('root')
-
-
+      //   // document.getElementById('root')
+      //
+      //
       // );
 
       // document.getElementById("demo").innerHTML = "IT WORKSSSSS!";
